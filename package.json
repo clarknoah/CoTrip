@@ -1,0 +1,24 @@
+{
+  "name": "cotrip",
+  "version": "1.0.0",
+  "description": "CoTripper: an app to facilitate organized group travel experiences for single-mothers. This repository is dedicated to the backend functionality that covers user authentication, connecting to frontend for functionality, and keep a database for topics, trip information, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarknoah/CoTrip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarknoah/CoTrip/issues"
+  },
+  "homepage": "https://github.com/clarknoah/CoTrip#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
