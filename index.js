@@ -5,7 +5,7 @@ const path = require('path');
 var port = process.env.PORT || 4000;
 
 
-app.use('/', express.static(path.join(__dirname, './build')));
+app.use('/', express.static(path.join(__dirname, './builds')));
 app.use('/storybook', express.static(path.join(__dirname, './storybook-static')));
 
 
